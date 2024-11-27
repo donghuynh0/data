@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ed0f4c16e491c012041fd597e5a7553 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ed0f4c16e491c012041fd597e5a7553" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ed0f4c16e491c012041fd597e5a7553 = L.map(
+                "map_8ed0f4c16e491c012041fd597e5a7553",
+                {
+                    center: [10.7375481, 106.7302238],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3fd6d7408bfc30aca3e79877b0ce9e27 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3fd6d7408bfc30aca3e79877b0ce9e27.addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_d108a9d07f1f098147b27f6906137725 = L.marker(
+                [10.709599993917495, 106.744369652848],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_a9ce58f53430a9eb77fcfbbce910b32b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d108a9d07f1f098147b27f6906137725.setIcon(icon_a9ce58f53430a9eb77fcfbbce910b32b);
+        
+    
+        var popup_0071ed2e0984892212049d38505243eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2da697f9572420e84cef48567b11fcb7 = $(`<div id="html_2da697f9572420e84cef48567b11fcb7" style="width: 100.0%; height: 100.0%;">CĐ nghề GTVT đường thủy II</div>`)[0];
+                popup_0071ed2e0984892212049d38505243eb.setContent(html_2da697f9572420e84cef48567b11fcb7);
+            
+        
+
+        marker_d108a9d07f1f098147b27f6906137725.bindPopup(popup_0071ed2e0984892212049d38505243eb)
+        ;
+
+        
+    
+    
+            marker_d108a9d07f1f098147b27f6906137725.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7a5f12dffb21f3071268d5ff0bdc285e = L.polygon(
+                [[10.710048, 106.7435], [10.71007, 106.743713], [10.710017, 106.744934], [10.70988, 106.745209], [10.7093, 106.745354], [10.709147, 106.74511], [10.709189, 106.743584], [10.7096453, 106.743454], [10.710048, 106.7435], [10.710048, 106.7435]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_5560ea46f54755750083d3b849cc605a = L.marker(
+                [10.729587925947998, 106.69360369445137],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_396d3b3abe5f5738df270c9b9c50d74c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5560ea46f54755750083d3b849cc605a.setIcon(icon_396d3b3abe5f5738df270c9b9c50d74c);
+        
+    
+        var popup_4f6af7a6e5b4c80a5e4e2ffdd41cae3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f536b1355dc0801f28425fb4ded1c11a = $(`<div id="html_f536b1355dc0801f28425fb4ded1c11a" style="width: 100.0%; height: 100.0%;">Trường Đại Học RMIT Việt Nam</div>`)[0];
+                popup_4f6af7a6e5b4c80a5e4e2ffdd41cae3f.setContent(html_f536b1355dc0801f28425fb4ded1c11a);
+            
+        
+
+        marker_5560ea46f54755750083d3b849cc605a.bindPopup(popup_4f6af7a6e5b4c80a5e4e2ffdd41cae3f)
+        ;
+
+        
+    
+    
+            marker_5560ea46f54755750083d3b849cc605a.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_575e4d4485fff4d6e846e81691f1bb46 = L.polygon(
+                [[10.7290504, 106.6909474], [10.729303, 106.6909571], [10.730104, 106.6910093], [10.7302193, 106.6910512], [10.7303307, 106.6911093], [10.7303968, 106.6911518], [10.7304549, 106.6912024], [10.7305309, 106.6912827], [10.7307902, 106.6918291], [10.7308256, 106.6919162], [10.7308277, 106.6924891], [10.7308527, 106.6926005], [10.7308295, 106.6927074], [10.7308091, 106.6927383], [10.7306725, 106.692835], [10.7306306, 106.6928482], [10.7299802, 106.692772], [10.7298772, 106.694919], [10.7298501, 106.6954849], [10.7298287, 106.695565], [10.729828, 106.6959055], [10.7299845, 106.6960657], [10.729989, 106.6967318], [10.7299895, 106.6968087], [10.7299894, 106.6968733], [10.7299587, 106.6969268], [10.7299108, 106.6969818], [10.729832, 106.6970159], [10.7296823, 106.6970578], [10.7295486, 106.6970817], [10.7293839, 106.697072], [10.7292533, 106.6970528], [10.7290968, 106.6970221], [10.7289893, 106.6969935], [10.7288621, 106.6940943], [10.7288013, 106.6938297], [10.7288106, 106.6937791], [10.7289396, 106.6935549], [10.728879, 106.6911916], [10.7288794, 106.6911042], [10.7289145, 106.6910285], [10.7289652, 106.6909773], [10.7290504, 106.6909474], [10.7290504, 106.6909474]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_44be3465a1c7bac4517b71c2aac2b021 = L.marker(
+                [10.731866304828042, 106.69837095871154],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_1703c9a46b023e8ac011f30bf88b18d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_44be3465a1c7bac4517b71c2aac2b021.setIcon(icon_1703c9a46b023e8ac011f30bf88b18d9);
+        
+    
+        var popup_06b28f316313183f18181cd60144a0e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12ae2d05913c79ff9d5fad6cf48adc06 = $(`<div id="html_12ae2d05913c79ff9d5fad6cf48adc06" style="width: 100.0%; height: 100.0%;">Trường Đại học Tôn Đức Thắng</div>`)[0];
+                popup_06b28f316313183f18181cd60144a0e0.setContent(html_12ae2d05913c79ff9d5fad6cf48adc06);
+            
+        
+
+        marker_44be3465a1c7bac4517b71c2aac2b021.bindPopup(popup_06b28f316313183f18181cd60144a0e0)
+        ;
+
+        
+    
+    
+            marker_44be3465a1c7bac4517b71c2aac2b021.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9cb182cd891ddcfb33b456067e2fa068 = L.polygon(
+                [[10.7331441, 106.6997616], [10.7331657, 106.6994595], [10.7331703, 106.6994093], [10.7331743, 106.6993636], [10.7331906, 106.6991597], [10.7331914, 106.699149], [10.7331923, 106.6991381], [10.7331974, 106.6990729], [10.7332036, 106.6989955], [10.7332041, 106.6989898], [10.7332054, 106.6989752], [10.7332433, 106.6985429], [10.733245, 106.6985231], [10.733266, 106.6982694], [10.7333438, 106.6973437], [10.7333449, 106.6973309], [10.7333475, 106.6972999], [10.7333499, 106.6972707], [10.7334218, 106.6964281], [10.7334231, 106.6963839], [10.7334263, 106.6963465], [10.7334661, 106.6960468], [10.7332828, 106.6961709], [10.7332523, 106.6961918], [10.7332174, 106.6962157], [10.7326854, 106.696589], [10.7322201, 106.6968945], [10.7317903, 106.6971682], [10.7313395, 106.6972911], [10.7304727, 106.6973336], [10.730149, 106.6973612], [10.7301391, 106.6975015], [10.7302598, 106.6984553], [10.7302628, 106.6984781], [10.7302821, 106.6986255], [10.7303048, 106.6987967], [10.730431, 106.6997503], [10.7304906, 106.6997588], [10.7304301, 106.699933], [10.7304606, 106.6999471], [10.7304065, 106.7000785], [10.73042, 106.7001111], [10.7315021, 106.6999657], [10.7315109, 106.6999645], [10.7315202, 106.6999633], [10.7315658, 106.699957], [10.7316121, 106.6999505], [10.7316229, 106.6999492], [10.7316329, 106.699948], [10.7324088, 106.699847], [10.732454, 106.6998415], [10.732503, 106.6998351], [10.7326201, 106.6998206], [10.7330753, 106.6997694], [10.7331176, 106.6997643], [10.7331441, 106.6997616], [10.7331441, 106.6997616]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_4c19e0f5593dc08ab42d47ad722f0100 = L.marker(
+                [10.723305929819011, 106.72214566135972],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_e289ea0bf6a50e7121ad89cb862cf3ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4c19e0f5593dc08ab42d47ad722f0100.setIcon(icon_e289ea0bf6a50e7121ad89cb862cf3ce);
+        
+    
+        var popup_6a985bf3d17da8a7b10505e9b301d8e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bba2392677bbf243d9f41bfc266775b = $(`<div id="html_5bba2392677bbf243d9f41bfc266775b" style="width: 100.0%; height: 100.0%;">Trường Cao đẳng Bán công Công nghệ và Quản trị doanh nghiệp (CTIM)</div>`)[0];
+                popup_6a985bf3d17da8a7b10505e9b301d8e5.setContent(html_5bba2392677bbf243d9f41bfc266775b);
+            
+        
+
+        marker_4c19e0f5593dc08ab42d47ad722f0100.bindPopup(popup_6a985bf3d17da8a7b10505e9b301d8e5)
+        ;
+
+        
+    
+    
+            marker_4c19e0f5593dc08ab42d47ad722f0100.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4c9b846520bcf5b3b28cc05f0ac6e681 = L.polygon(
+                [[10.7240224, 106.7229054], [10.722166, 106.7240671], [10.7221047, 106.7241055], [10.7221286, 106.7240001], [10.7221923, 106.723842], [10.7222401, 106.7237326], [10.7222784, 106.7236128], [10.7223783, 106.7233921], [10.7225565, 106.7229414], [10.7229331, 106.7219694], [10.7229662, 106.7217981], [10.7229839, 106.7206487], [10.7233656, 106.7201475], [10.7242963, 106.7217127], [10.7242604, 106.7219079], [10.7242128, 106.7220936], [10.724058, 106.722183], [10.7237012, 106.7223998], [10.723763, 106.722481], [10.7240224, 106.7229054], [10.7240224, 106.7229054]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_f4ec117de7f4e8dc21e4b0b3b3cbe820 = L.marker(
+                [10.735375845846608, 106.69799517276732],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_bc6e1fcc535e91caf084f72a1a318665 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f4ec117de7f4e8dc21e4b0b3b3cbe820.setIcon(icon_bc6e1fcc535e91caf084f72a1a318665);
+        
+    
+        var popup_aafe7fde58123160dcdcdd3deb6b29a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe772e276d7b4f5bd79a4854b5742ed7 = $(`<div id="html_fe772e276d7b4f5bd79a4854b5742ed7" style="width: 100.0%; height: 100.0%;">Trường Đại học Cảnh sát Nhân dân</div>`)[0];
+                popup_aafe7fde58123160dcdcdd3deb6b29a0.setContent(html_fe772e276d7b4f5bd79a4854b5742ed7);
+            
+        
+
+        marker_f4ec117de7f4e8dc21e4b0b3b3cbe820.bindPopup(popup_aafe7fde58123160dcdcdd3deb6b29a0)
+        ;
+
+        
+    
+    
+            marker_f4ec117de7f4e8dc21e4b0b3b3cbe820.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8f2e88ab9e5321907688ba04b7558d7e = L.polygon(
+                [[10.737588, 106.7001393], [10.737198, 106.7002038], [10.7366848, 106.7001322], [10.7355769, 106.699954], [10.7344595, 106.6997794], [10.7341599, 106.6997582], [10.7340897, 106.6997573], [10.7340371, 106.6997566], [10.733971, 106.6997557], [10.7339001, 106.6997548], [10.733652, 106.699758], [10.7334267, 106.6997725], [10.7333876, 106.6997355], [10.7333936, 106.699621], [10.733803, 106.6996122], [10.7338095, 106.6994609], [10.7337754, 106.6994251], [10.733728, 106.6986642], [10.7336769, 106.6986384], [10.733479, 106.6986589], [10.7334867, 106.6985549], [10.7335078, 106.6982712], [10.7336489, 106.6965852], [10.7336564, 106.6965081], [10.733664, 106.6964307], [10.7336742, 106.6963575], [10.7336936, 106.6962185], [10.7337511, 106.6959902], [10.7338226, 106.6958123], [10.7338363, 106.6957751], [10.7339516, 106.6954917], [10.7341071, 106.6951044], [10.7341366, 106.6950715], [10.734179, 106.6950549], [10.7342196, 106.6950593], [10.7348384, 106.6953277], [10.7351435, 106.6954601], [10.7354007, 106.6955841], [10.7356195, 106.6957379], [10.7357668, 106.6958644], [10.7358947, 106.6960017], [10.7360079, 106.696182], [10.7363774, 106.6969147], [10.7363991, 106.6969577], [10.7366153, 106.6973321], [10.7372382, 106.6982011], [10.7375531, 106.6987125], [10.7376923, 106.6990576], [10.7377831, 106.6992671], [10.7378255, 106.6994705], [10.7378437, 106.6997046], [10.7378073, 106.699908], [10.7377044, 106.700099], [10.737588, 106.7001393], [10.737588, 106.7001393]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_9f254126f02197debfedb4e8ebd175eb = L.marker(
+                [10.743117571348506, 106.7024163141959],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_c490db42f24317263d9ec27f63a8e017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9f254126f02197debfedb4e8ebd175eb.setIcon(icon_c490db42f24317263d9ec27f63a8e017);
+        
+    
+        var popup_35295308808c527e11c4f5589a58d2f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7bbdd84c1eb0a07f833b0967a90c29b = $(`<div id="html_b7bbdd84c1eb0a07f833b0967a90c29b" style="width: 100.0%; height: 100.0%;">Trường Đại học Nguyễn Tất Thành (cơ sở Nguyễn Hữu Thọ)</div>`)[0];
+                popup_35295308808c527e11c4f5589a58d2f6.setContent(html_b7bbdd84c1eb0a07f833b0967a90c29b);
+            
+        
+
+        marker_9f254126f02197debfedb4e8ebd175eb.bindPopup(popup_35295308808c527e11c4f5589a58d2f6)
+        ;
+
+        
+    
+    
+            marker_9f254126f02197debfedb4e8ebd175eb.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_2a3e30dab0c28263601f5a10541c108a = L.polygon(
+                [[10.7437461, 106.7026706], [10.7435721, 106.702751], [10.7435972, 106.7028154], [10.7429687, 106.7030945], [10.7427539, 106.7026733], [10.742692, 106.7027028], [10.7424627, 106.7021503], [10.7433771, 106.7017291], [10.7434833, 106.7019927], [10.7434329, 106.7020192], [10.7437461, 106.7026706], [10.7437461, 106.7026706]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_7895b4c524a3d7dc246bfbb15656c437 = L.marker(
+                [10.722020716935965, 106.73246999999999],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_9af1015a1641b48a0b6db1375762bf71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_7895b4c524a3d7dc246bfbb15656c437.setIcon(icon_9af1015a1641b48a0b6db1375762bf71);
+        
+    
+        var popup_67d888710cd3a1a3bb6b00c772f4f567 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be2957ca3a50d11f064d8b589c0fcc80 = $(`<div id="html_be2957ca3a50d11f064d8b589c0fcc80" style="width: 100.0%; height: 100.0%;">Trường Hàn Quốc HCMC Korean School</div>`)[0];
+                popup_67d888710cd3a1a3bb6b00c772f4f567.setContent(html_be2957ca3a50d11f064d8b589c0fcc80);
+            
+        
+
+        marker_7895b4c524a3d7dc246bfbb15656c437.bindPopup(popup_67d888710cd3a1a3bb6b00c772f4f567)
+        ;
+
+        
+    
+    
+            marker_7895b4c524a3d7dc246bfbb15656c437.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_d5c9305ae527809b93839a7669c1daaa = L.polygon(
+                [[10.722427, 106.731628], [10.722922, 106.732483], [10.7216, 106.733299], [10.721117, 106.732483], [10.722427, 106.731628], [10.722427, 106.731628]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_42600fc1686afd8cc08ab0415b52aa76 = L.marker(
+                [10.723885294794318, 106.73130642277094],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_6a0fa8c0c963a342a3f463ba9654a331 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_42600fc1686afd8cc08ab0415b52aa76.setIcon(icon_6a0fa8c0c963a342a3f463ba9654a331);
+        
+    
+        var popup_7208f0ce974f8bf2877d4c1305594811 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06617e80ed7722cbddbf00c187e4b3cb = $(`<div id="html_06617e80ed7722cbddbf00c187e4b3cb" style="width: 100.0%; height: 100.0%;">Trường Quốc tế Đài Loan</div>`)[0];
+                popup_7208f0ce974f8bf2877d4c1305594811.setContent(html_06617e80ed7722cbddbf00c187e4b3cb);
+            
+        
+
+        marker_42600fc1686afd8cc08ab0415b52aa76.bindPopup(popup_7208f0ce974f8bf2877d4c1305594811)
+        ;
+
+        
+    
+    
+            marker_42600fc1686afd8cc08ab0415b52aa76.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_ad369384f992f2697cb9965d9f73629e = L.polygon(
+                [[10.725219, 106.7310836], [10.7247452, 106.7302215], [10.72254, 106.731544], [10.723031, 106.732384], [10.725219, 106.7310836], [10.725219, 106.7310836]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_00a4d2cb205f6ceea34a5991b4417685 = L.marker(
+                [10.725806248461867, 106.73011459742885],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_bc723daae45ac25cd8b07e26187ce2d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_00a4d2cb205f6ceea34a5991b4417685.setIcon(icon_bc723daae45ac25cd8b07e26187ce2d8);
+        
+    
+        var popup_5c53db3c97dcffb20616e976761950ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52174c0a69d6c5f50f8dc83231ae4eb0 = $(`<div id="html_52174c0a69d6c5f50f8dc83231ae4eb0" style="width: 100.0%; height: 100.0%;">Trường Nhật Bản Thành phố Hồ Chí Minh</div>`)[0];
+                popup_5c53db3c97dcffb20616e976761950ea.setContent(html_52174c0a69d6c5f50f8dc83231ae4eb0);
+            
+        
+
+        marker_00a4d2cb205f6ceea34a5991b4417685.bindPopup(popup_5c53db3c97dcffb20616e976761950ea)
+        ;
+
+        
+    
+    
+            marker_00a4d2cb205f6ceea34a5991b4417685.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b8bc56021cbfc6db21c5fcf0bd28520d = L.polygon(
+                [[10.7262751, 106.7292624], [10.7249376, 106.7300865], [10.7249273, 106.7301417], [10.7254167, 106.7309543], [10.726396, 106.7303588], [10.7265929, 106.7300688], [10.7264847, 106.7298077], [10.7265002, 106.7296352], [10.7262751, 106.7292624], [10.7262751, 106.7292624]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_6871a114f1839e1496290c7f460b15a9 = L.marker(
+                [10.72454462846123, 106.72300543241585],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_87309714c5e109b09363594190bc63e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_6871a114f1839e1496290c7f460b15a9.setIcon(icon_87309714c5e109b09363594190bc63e5);
+        
+    
+        var popup_755f08d3742684ef531d35292d305105 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e41d5c7956aa0cb35c5181f9e032e38 = $(`<div id="html_9e41d5c7956aa0cb35c5181f9e032e38" style="width: 100.0%; height: 100.0%;">Trường BC Nam Sài Gòn</div>`)[0];
+                popup_755f08d3742684ef531d35292d305105.setContent(html_9e41d5c7956aa0cb35c5181f9e032e38);
+            
+        
+
+        marker_6871a114f1839e1496290c7f460b15a9.bindPopup(popup_755f08d3742684ef531d35292d305105)
+        ;
+
+        
+    
+    
+            marker_6871a114f1839e1496290c7f460b15a9.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4322cd93c543d52c5a8715b1ec1e3abe = L.polygon(
+                [[10.72458, 106.723038], [10.724917, 106.722847], [10.725344, 106.723572], [10.724691, 106.723999], [10.7240224, 106.7229054], [10.723763, 106.722481], [10.724095, 106.72226], [10.724058, 106.722183], [10.7242128, 106.7220936], [10.724401, 106.721985], [10.724859, 106.722794], [10.724533, 106.722969], [10.72458, 106.723038], [10.72458, 106.723038]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_313fa24c389a37852a188c5e58bc230f = L.marker(
+                [10.71295210422338, 106.73636690858497],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_09def685f89657f8f73289dc87644dfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_313fa24c389a37852a188c5e58bc230f.setIcon(icon_09def685f89657f8f73289dc87644dfd);
+        
+    
+        var popup_8c70f5bc48c7139429120bd8f8acf5bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eb57dd1706369317c903820622067e2 = $(`<div id="html_3eb57dd1706369317c903820622067e2" style="width: 100.0%; height: 100.0%;">Trường THPT Ngô Quyền</div>`)[0];
+                popup_8c70f5bc48c7139429120bd8f8acf5bc.setContent(html_3eb57dd1706369317c903820622067e2);
+            
+        
+
+        marker_313fa24c389a37852a188c5e58bc230f.bindPopup(popup_8c70f5bc48c7139429120bd8f8acf5bc)
+        ;
+
+        
+    
+    
+            marker_313fa24c389a37852a188c5e58bc230f.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_1fcef59e08c43ba735c5e1e0802668af = L.polygon(
+                [[10.7125878, 106.7369178], [10.7129081, 106.736902], [10.7129379, 106.7368658], [10.712985, 106.7368644], [10.7132399, 106.7368568], [10.7132466, 106.7357967], [10.7127547, 106.7357985], [10.7125878, 106.7369178], [10.7125878, 106.7369178]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_ae5115ab30e3ded1584995797a02f55a = L.marker(
+                [10.714808507275851, 106.73283069654009],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_941b59d609e10aeee8959a8eadbfc58d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_ae5115ab30e3ded1584995797a02f55a.setIcon(icon_941b59d609e10aeee8959a8eadbfc58d);
+        
+    
+        var popup_74dda4c7b9b962214b776bcbe8c43aef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5177b2d7cc8eac469cf8ea0fba452bff = $(`<div id="html_5177b2d7cc8eac469cf8ea0fba452bff" style="width: 100.0%; height: 100.0%;">Trường THCS Hoàng Quốc Việt</div>`)[0];
+                popup_74dda4c7b9b962214b776bcbe8c43aef.setContent(html_5177b2d7cc8eac469cf8ea0fba452bff);
+            
+        
+
+        marker_ae5115ab30e3ded1584995797a02f55a.bindPopup(popup_74dda4c7b9b962214b776bcbe8c43aef)
+        ;
+
+        
+    
+    
+            marker_ae5115ab30e3ded1584995797a02f55a.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f2fc30df5d140f8082cbd90b42117825 = L.polygon(
+                [[10.7147878, 106.7338642], [10.7148106, 106.7338984], [10.7148393, 106.7339124], [10.7148725, 106.733915], [10.7149059, 106.7339082], [10.7149439, 106.7338882], [10.7149721, 106.7338419], [10.715166, 106.732361], [10.715109, 106.732292], [10.7148285, 106.7321389], [10.7146881, 106.7320666], [10.7145959, 106.7320587], [10.7145053, 106.7320624], [10.7144367, 106.7320718], [10.7143977, 106.7321062], [10.7143877, 106.7321399], [10.7147878, 106.7338642], [10.7147878, 106.7338642]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_82fb815f96cbe01c435dd12a39169f27 = L.marker(
+                [10.721594772145544, 106.71013845616427],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_aba4266ec3b405bfd557fa61695c7acd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_82fb815f96cbe01c435dd12a39169f27.setIcon(icon_aba4266ec3b405bfd557fa61695c7acd);
+        
+    
+        var popup_3160e035bb7dc7cfb379029cdfeceea4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e05255f2153855b8321315cc012aef4 = $(`<div id="html_0e05255f2153855b8321315cc012aef4" style="width: 100.0%; height: 100.0%;">Trường Đinh Thiện Lý</div>`)[0];
+                popup_3160e035bb7dc7cfb379029cdfeceea4.setContent(html_0e05255f2153855b8321315cc012aef4);
+            
+        
+
+        marker_82fb815f96cbe01c435dd12a39169f27.bindPopup(popup_3160e035bb7dc7cfb379029cdfeceea4)
+        ;
+
+        
+    
+    
+            marker_82fb815f96cbe01c435dd12a39169f27.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_634d9c0d8715a011b16f9d050a5ad0b3 = L.polygon(
+                [[10.7214485, 106.7113282], [10.7212468, 106.71128], [10.7212312, 106.7107469], [10.7209798, 106.7101048], [10.7206757, 106.7096268], [10.7205972, 106.7094407], [10.7211389, 106.7094405], [10.721142, 106.709641], [10.7227693, 106.7095971], [10.7228009, 106.7096245], [10.7220502, 106.7104141], [10.7218367, 106.7106386], [10.7218087, 106.710668], [10.7217416, 106.710754], [10.7216767, 106.7108507], [10.7216141, 106.7109518], [10.7215558, 106.7110617], [10.7215157, 106.711149], [10.7214814, 106.7112344], [10.7214485, 106.7113282], [10.7214485, 106.7113282]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_6298a80bc9d39f23a86e2c0aab6e5929 = L.marker(
+                [10.743280493166749, 106.69925017355375],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_ca325e8265e3f7b487aa26a9d71c55a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_6298a80bc9d39f23a86e2c0aab6e5929.setIcon(icon_ca325e8265e3f7b487aa26a9d71c55a6);
+        
+    
+        var popup_881707853cbb9d93f408a1123bde48d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f754c3dacf612a93c896091490f6b89 = $(`<div id="html_0f754c3dacf612a93c896091490f6b89" style="width: 100.0%; height: 100.0%;">Trường Tiểu học - THCS - THPT Sao Việt</div>`)[0];
+                popup_881707853cbb9d93f408a1123bde48d4.setContent(html_0f754c3dacf612a93c896091490f6b89);
+            
+        
+
+        marker_6298a80bc9d39f23a86e2c0aab6e5929.bindPopup(popup_881707853cbb9d93f408a1123bde48d4)
+        ;
+
+        
+    
+    
+            marker_6298a80bc9d39f23a86e2c0aab6e5929.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_76165883c212f28d8c8e76765c67a3bd = L.polygon(
+                [[10.7437819, 106.6979983], [10.7437863, 106.7005036], [10.7425778, 106.7002854], [10.7427705, 106.6991956], [10.7430079, 106.6978533], [10.7437819, 106.6979983], [10.7437819, 106.6979983]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_74bca360b55672cb96d967064189e803 = L.marker(
+                [10.732466992796011, 106.7111076492427],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_4584800da977791da928c6ca9f4eae20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_74bca360b55672cb96d967064189e803.setIcon(icon_4584800da977791da928c6ca9f4eae20);
+        
+    
+        var popup_ecb844adb6d3e28fd7be0320d3f5be76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f58e4aebb7ca56ca9f82963013242e79 = $(`<div id="html_f58e4aebb7ca56ca9f82963013242e79" style="width: 100.0%; height: 100.0%;">Trường Mầm non Ngôi Sao Tuổi Thơ - Tiểu học - THCS - THPT Hoàng Gia</div>`)[0];
+                popup_ecb844adb6d3e28fd7be0320d3f5be76.setContent(html_f58e4aebb7ca56ca9f82963013242e79);
+            
+        
+
+        marker_74bca360b55672cb96d967064189e803.bindPopup(popup_ecb844adb6d3e28fd7be0320d3f5be76)
+        ;
+
+        
+    
+    
+            marker_74bca360b55672cb96d967064189e803.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8624d4e4ffd8dd898bd0e4171541ef43 = L.polygon(
+                [[10.732856, 106.71043], [10.7328766, 106.7115699], [10.7326532, 106.7116558], [10.7324476, 106.7117755], [10.7321896, 106.7119842], [10.7321252, 106.711963], [10.7321071, 106.7111241], [10.7320933, 106.7104901], [10.7321371, 106.7104462], [10.7322389, 106.7104439], [10.732856, 106.71043], [10.732856, 106.71043]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_3e24e168f7ef13b4a01d91f1b869f114 = L.marker(
+                [10.738527987209633, 106.72464875358912],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_5c3ee74eb38a829bda72b0792f714289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_3e24e168f7ef13b4a01d91f1b869f114.setIcon(icon_5c3ee74eb38a829bda72b0792f714289);
+        
+    
+        var popup_d8ce3a1cfecbb2d28c3d353f0347ad39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdee56e5c5e05b28b590134b3e813cef = $(`<div id="html_cdee56e5c5e05b28b590134b3e813cef" style="width: 100.0%; height: 100.0%;">Trường Quốc Tế Renaissance</div>`)[0];
+                popup_d8ce3a1cfecbb2d28c3d353f0347ad39.setContent(html_cdee56e5c5e05b28b590134b3e813cef);
+            
+        
+
+        marker_3e24e168f7ef13b4a01d91f1b869f114.bindPopup(popup_d8ce3a1cfecbb2d28c3d353f0347ad39)
+        ;
+
+        
+    
+    
+            marker_3e24e168f7ef13b4a01d91f1b869f114.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_bd3964763170fb00275d31d6953de4b7 = L.polygon(
+                [[10.7390741, 106.7242919], [10.7390214, 106.7250429], [10.7384261, 106.7250805], [10.7384366, 106.7248284], [10.737899, 106.7249357], [10.7379306, 106.724367], [10.738421, 106.7243115], [10.7387379, 106.7242754], [10.7390741, 106.7242919], [10.7390741, 106.7242919]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_5692ed4f5374d2e2701fbb317e617c2e = L.marker(
+                [10.733362924357904, 106.71090806964352],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_409fec803258875f7f044c4593006b6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_5692ed4f5374d2e2701fbb317e617c2e.setIcon(icon_409fec803258875f7f044c4593006b6a);
+        
+    
+        var popup_779793b57b7e4597523b859f19b75ed9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e48f816c42cdc0d6f300528d61a1edab = $(`<div id="html_e48f816c42cdc0d6f300528d61a1edab" style="width: 100.0%; height: 100.0%;">Trường Tiểu học Vỗ Thị Sáu</div>`)[0];
+                popup_779793b57b7e4597523b859f19b75ed9.setContent(html_e48f816c42cdc0d6f300528d61a1edab);
+            
+        
+
+        marker_5692ed4f5374d2e2701fbb317e617c2e.bindPopup(popup_779793b57b7e4597523b859f19b75ed9)
+        ;
+
+        
+    
+    
+            marker_5692ed4f5374d2e2701fbb317e617c2e.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_5a27d2f7b86711ae41fa6f6f582bda76 = L.polygon(
+                [[10.7338562, 106.7108527], [10.7338123, 106.7109468], [10.7337295, 106.7111242], [10.733628, 106.7114428], [10.7335723, 106.7114866], [10.7331991, 106.7114995], [10.7330476, 106.7115268], [10.7328766, 106.7115699], [10.732856, 106.71043], [10.7331716, 106.7104217], [10.7341571, 106.7103956], [10.7338562, 106.7108527], [10.7338562, 106.7108527]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_b583e7f780817628c44e781161c9a939 = L.marker(
+                [10.741019663426627, 106.70433323498217],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_e01d2a7ccf5b5fa362fbf50b9862f152 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_b583e7f780817628c44e781161c9a939.setIcon(icon_e01d2a7ccf5b5fa362fbf50b9862f152);
+        
+    
+        var popup_b842f2fcb194b28e75a04778ed81192f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26dd47738311ed0e40aa33330b777a53 = $(`<div id="html_26dd47738311ed0e40aa33330b777a53" style="width: 100.0%; height: 100.0%;">Trường tiểu học Tân Quy</div>`)[0];
+                popup_b842f2fcb194b28e75a04778ed81192f.setContent(html_26dd47738311ed0e40aa33330b777a53);
+            
+        
+
+        marker_b583e7f780817628c44e781161c9a939.bindPopup(popup_b842f2fcb194b28e75a04778ed81192f)
+        ;
+
+        
+    
+    
+            marker_b583e7f780817628c44e781161c9a939.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_871e8977f0206322230066362d8da72f = L.polygon(
+                [[10.7408809, 106.7046097], [10.741001, 106.7037794], [10.7411495, 106.7044226], [10.741128, 106.7046448], [10.7408809, 106.7046097], [10.7408809, 106.7046097]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_db7601f38e5da37e43a71fa3aa82ee7d = L.marker(
+                [10.746220574687557, 106.7106590324637],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_9b60ded6101d1d11d97fb018d59b4a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_db7601f38e5da37e43a71fa3aa82ee7d.setIcon(icon_9b60ded6101d1d11d97fb018d59b4a24);
+        
+    
+        var popup_d662ad89979ac9f4522d3180628e7566 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15ff3c6f59bffc9b46bff2e1081535c5 = $(`<div id="html_15ff3c6f59bffc9b46bff2e1081535c5" style="width: 100.0%; height: 100.0%;">Trường tiểu học Lương Thế Vinh</div>`)[0];
+                popup_d662ad89979ac9f4522d3180628e7566.setContent(html_15ff3c6f59bffc9b46bff2e1081535c5);
+            
+        
+
+        marker_db7601f38e5da37e43a71fa3aa82ee7d.bindPopup(popup_d662ad89979ac9f4522d3180628e7566)
+        ;
+
+        
+    
+    
+            marker_db7601f38e5da37e43a71fa3aa82ee7d.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_88b0ab7391f15a64129cf7320173fedf = L.polygon(
+                [[10.7464623, 106.7101962], [10.7464729, 106.7111159], [10.7459788, 106.7111218], [10.7459683, 106.7102021], [10.7462754, 106.7101985], [10.7464623, 106.7101962], [10.7464623, 106.7101962]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_9a1946ecf7d345769e1cb15d9121fc5e = L.marker(
+                [10.745282538948906, 106.71068127199405],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_f5b5289b197d0b147b0ee22c733fb94d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_9a1946ecf7d345769e1cb15d9121fc5e.setIcon(icon_f5b5289b197d0b147b0ee22c733fb94d);
+        
+    
+        var popup_54f14a263814c6736c86f98ecdb370ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc4b80111f3403c917b98a50a7b1cd96 = $(`<div id="html_dc4b80111f3403c917b98a50a7b1cd96" style="width: 100.0%; height: 100.0%;">Trường THPT Lê Thánh Tôn</div>`)[0];
+                popup_54f14a263814c6736c86f98ecdb370ee.setContent(html_dc4b80111f3403c917b98a50a7b1cd96);
+            
+        
+
+        marker_9a1946ecf7d345769e1cb15d9121fc5e.bindPopup(popup_54f14a263814c6736c86f98ecdb370ee)
+        ;
+
+        
+    
+    
+            marker_9a1946ecf7d345769e1cb15d9121fc5e.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0fbfcde29b49d175707edb5d073537c4 = L.polygon(
+                [[10.7450646, 106.7102223], [10.7450177, 106.7102708], [10.7450211, 106.710709], [10.7450244, 106.7111472], [10.7455355, 106.7111468], [10.7455494, 106.7102165], [10.7450646, 106.7102223], [10.7450646, 106.7102223]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_2caef0d4643fa0508848f4485e218c9b = L.marker(
+                [10.74299368980172, 106.71624299964058],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_c485313b7b3a8aa59c12d03f966e1ea8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_2caef0d4643fa0508848f4485e218c9b.setIcon(icon_c485313b7b3a8aa59c12d03f966e1ea8);
+        
+    
+        var popup_f570704b16d7aed4087d81fb921a0765 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b33df179be0d5f697f8391ffe8a36b4 = $(`<div id="html_4b33df179be0d5f697f8391ffe8a36b4" style="width: 100.0%; height: 100.0%;">Trường tiểu học Nguyễn Thị Định</div>`)[0];
+                popup_f570704b16d7aed4087d81fb921a0765.setContent(html_4b33df179be0d5f697f8391ffe8a36b4);
+            
+        
+
+        marker_2caef0d4643fa0508848f4485e218c9b.bindPopup(popup_f570704b16d7aed4087d81fb921a0765)
+        ;
+
+        
+    
+    
+            marker_2caef0d4643fa0508848f4485e218c9b.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_c541887dff17120408f1642c81f683d8 = L.polygon(
+                [[10.7433702, 106.7159869], [10.743372, 106.7165042], [10.7426125, 106.7164946], [10.7426163, 106.715985], [10.7433702, 106.7159869], [10.7433702, 106.7159869]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_985421e2221ad3560504d9e8ce4ab00e = L.marker(
+                [10.74810628447141, 106.7150081888518],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_52271871660a79e7ce97c3fe693c2cbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_985421e2221ad3560504d9e8ce4ab00e.setIcon(icon_52271871660a79e7ce97c3fe693c2cbe);
+        
+    
+        var popup_d630db63a4f1806e73442ac136f60b55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b4361ae974b37bae1588eed9a306959 = $(`<div id="html_7b4361ae974b37bae1588eed9a306959" style="width: 100.0%; height: 100.0%;">Trường trung học cơ sở Nguyễn Hữu Thọ</div>`)[0];
+                popup_d630db63a4f1806e73442ac136f60b55.setContent(html_7b4361ae974b37bae1588eed9a306959);
+            
+        
+
+        marker_985421e2221ad3560504d9e8ce4ab00e.bindPopup(popup_d630db63a4f1806e73442ac136f60b55)
+        ;
+
+        
+    
+    
+            marker_985421e2221ad3560504d9e8ce4ab00e.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0741341ea2bee83c2b5637c314e180ac = L.polygon(
+                [[10.7486003, 106.7157605], [10.747623, 106.7157722], [10.7476088, 106.7142566], [10.7485936, 106.7142473], [10.7486003, 106.7157605], [10.7486003, 106.7157605]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_e3e583062815c4f99663b5ca05280a88 = L.marker(
+                [10.726695651258773, 106.69282162594841],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_f6dd03609ed879038f52eed2509f2a9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_e3e583062815c4f99663b5ca05280a88.setIcon(icon_f6dd03609ed879038f52eed2509f2a9b);
+        
+    
+        var popup_8baaa37374a589de584f60b89aded247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7476987da559c115f29193eac590808a = $(`<div id="html_7476987da559c115f29193eac590808a" style="width: 100.0%; height: 100.0%;">Trường Trung học phổ thông Tân Phong</div>`)[0];
+                popup_8baaa37374a589de584f60b89aded247.setContent(html_7476987da559c115f29193eac590808a);
+            
+        
+
+        marker_e3e583062815c4f99663b5ca05280a88.bindPopup(popup_8baaa37374a589de584f60b89aded247)
+        ;
+
+        
+    
+    
+            marker_e3e583062815c4f99663b5ca05280a88.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_2f5d74b7cf7652e754212aaa1039ea08 = L.polygon(
+                [[10.7273086, 106.6930462], [10.7272627, 106.6930975], [10.7262924, 106.6931191], [10.7261731, 106.6931214], [10.7261034, 106.6931033], [10.7260823, 106.6930483], [10.726077, 106.6926406], [10.7261777, 106.6925447], [10.7272392, 106.6925154], [10.7272966, 106.6925551], [10.7273086, 106.6930462], [10.7273086, 106.6930462]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_d04a6a8709f453cc4efb0e8a7421a092 = L.marker(
+                [10.742287213892821, 106.70982835749415],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_8ac4c0e319c75b8d8e0dce89aff4f40e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_d04a6a8709f453cc4efb0e8a7421a092.setIcon(icon_8ac4c0e319c75b8d8e0dce89aff4f40e);
+        
+    
+        var popup_d8d15e53f4b1c5ff4b2fb1a57cde41ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ff26c4af802fe5f39426a72718348b7 = $(`<div id="html_1ff26c4af802fe5f39426a72718348b7" style="width: 100.0%; height: 100.0%;">Trường Mầm Non Mặt Trời Bé Con</div>`)[0];
+                popup_d8d15e53f4b1c5ff4b2fb1a57cde41ae.setContent(html_1ff26c4af802fe5f39426a72718348b7);
+            
+        
+
+        marker_d04a6a8709f453cc4efb0e8a7421a092.bindPopup(popup_d8d15e53f4b1c5ff4b2fb1a57cde41ae)
+        ;
+
+        
+    
+    
+            marker_d04a6a8709f453cc4efb0e8a7421a092.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_15f7718814365acee4100f9badc040fe = L.polygon(
+                [[10.7423702, 106.7096878], [10.7423312, 106.7099866], [10.7422024, 106.7099663], [10.7422453, 106.7096695], [10.7423702, 106.7096878], [10.7423702, 106.7096878]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_d5f32b230cb481eb6a335c88c42fa17d = L.marker(
+                [10.737740807795365, 106.71239555842591],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_b5c1982a8e9653b1a0c9260781dd989d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_d5f32b230cb481eb6a335c88c42fa17d.setIcon(icon_b5c1982a8e9653b1a0c9260781dd989d);
+        
+    
+        var popup_ff47dad1d1ea5c10da15383d8948555e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4efd40bb498871fe868df917b27331b8 = $(`<div id="html_4efd40bb498871fe868df917b27331b8" style="width: 100.0%; height: 100.0%;">Trường THCS Nguyễn Thị Thập</div>`)[0];
+                popup_ff47dad1d1ea5c10da15383d8948555e.setContent(html_4efd40bb498871fe868df917b27331b8);
+            
+        
+
+        marker_d5f32b230cb481eb6a335c88c42fa17d.bindPopup(popup_ff47dad1d1ea5c10da15383d8948555e)
+        ;
+
+        
+    
+    
+            marker_d5f32b230cb481eb6a335c88c42fa17d.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_30755b49df1f3df67cac0a9454d68620 = L.polygon(
+                [[10.7380379, 106.7117152], [10.7380717, 106.7117337], [10.7380777, 106.7117665], [10.7379507, 106.7130777], [10.7379207, 106.713107], [10.7378789, 106.7131142], [10.7374684, 106.7130913], [10.737427, 106.7130729], [10.7374102, 106.7130287], [10.7374471, 106.7125647], [10.7374729, 106.7122399], [10.7375448, 106.7117125], [10.7375606, 106.7116786], [10.7376018, 106.7116622], [10.7380379, 106.7117152], [10.7380379, 106.7117152]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_b558162bd1d418ea90dc7771664b7ea6 = L.marker(
+                [10.732400788550022, 106.69497617888891],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_e00a9ab9f17d91a9e8f27e46424a6f4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_b558162bd1d418ea90dc7771664b7ea6.setIcon(icon_e00a9ab9f17d91a9e8f27e46424a6f4f);
+        
+    
+        var popup_0ff40a3248cb1352296d6aa046d3d42f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1df882c17bd37f00b5a5abcf0bc6c21f = $(`<div id="html_1df882c17bd37f00b5a5abcf0bc6c21f" style="width: 100.0%; height: 100.0%;">Trường Quốc tế Việt Nam - Phần Lan</div>`)[0];
+                popup_0ff40a3248cb1352296d6aa046d3d42f.setContent(html_1df882c17bd37f00b5a5abcf0bc6c21f);
+            
+        
+
+        marker_b558162bd1d418ea90dc7771664b7ea6.bindPopup(popup_0ff40a3248cb1352296d6aa046d3d42f)
+        ;
+
+        
+    
+    
+            marker_b558162bd1d418ea90dc7771664b7ea6.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_99720359d480b220a7b89d03fde2d2c3 = L.polygon(
+                [[10.73188, 106.6935978], [10.7323626, 106.6940067], [10.7324653, 106.6940675], [10.7329856, 106.6943828], [10.733019, 106.6944245], [10.7330365, 106.6944688], [10.7330398, 106.6945089], [10.7330948, 106.6951862], [10.7330993, 106.6952413], [10.7331028, 106.6953224], [10.7330969, 106.6954165], [10.7330767, 106.6955021], [10.7330477, 106.6955635], [10.7328727, 106.6957408], [10.732416, 106.6961117], [10.7320536, 106.6964061], [10.7319195, 106.6951678], [10.7319072, 106.6950324], [10.731892, 106.6948538], [10.7318394, 106.6942871], [10.7317586, 106.6935248], [10.73188, 106.6935978], [10.73188, 106.6935978]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_c5d135e0f7dda9d61e7c994f9278a787 = L.marker(
+                [10.738581346718771, 106.69743594546729],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_9f1b3ec0e479289fe4b31d42d2ac3fa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_c5d135e0f7dda9d61e7c994f9278a787.setIcon(icon_9f1b3ec0e479289fe4b31d42d2ac3fa6);
+        
+    
+        var popup_27de6823a80776cb68a45ce73df3f82b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_725eeb68d09a70392d872f971f59bb1f = $(`<div id="html_725eeb68d09a70392d872f971f59bb1f" style="width: 100.0%; height: 100.0%;">Trường Quốc tế Việt Úc (VAS) - Cơ sở Sunrise</div>`)[0];
+                popup_27de6823a80776cb68a45ce73df3f82b.setContent(html_725eeb68d09a70392d872f971f59bb1f);
+            
+        
+
+        marker_c5d135e0f7dda9d61e7c994f9278a787.bindPopup(popup_27de6823a80776cb68a45ce73df3f82b)
+        ;
+
+        
+    
+    
+            marker_c5d135e0f7dda9d61e7c994f9278a787.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b1926673c002f0f6d331515c1270f5da = L.polygon(
+                [[10.7389582, 106.6969335], [10.738945, 106.6970585], [10.7387632, 106.6981267], [10.7387189, 106.6981603], [10.7386658, 106.6981707], [10.7386052, 106.6981453], [10.738532, 106.6980269], [10.7380849, 106.697201], [10.7380967, 106.6971478], [10.7381429, 106.6971123], [10.7388856, 106.6968687], [10.7389582, 106.6969335], [10.7389582, 106.6969335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_996f1f5a46c25f4fc386fc5d98bc6e54 = L.marker(
+                [10.720186234893152, 106.73350873868286],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_18f5c555889f66105d18427813f422df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_996f1f5a46c25f4fc386fc5d98bc6e54.setIcon(icon_18f5c555889f66105d18427813f422df);
+        
+    
+        var popup_acc0f382332238d808b9c7311392c514 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcdbe1554cc09aadb1e4674c576735ba = $(`<div id="html_dcdbe1554cc09aadb1e4674c576735ba" style="width: 100.0%; height: 100.0%;">Trường Tiểu học Lê Văn Tám</div>`)[0];
+                popup_acc0f382332238d808b9c7311392c514.setContent(html_dcdbe1554cc09aadb1e4674c576735ba);
+            
+        
+
+        marker_996f1f5a46c25f4fc386fc5d98bc6e54.bindPopup(popup_acc0f382332238d808b9c7311392c514)
+        ;
+
+        
+    
+    
+            marker_996f1f5a46c25f4fc386fc5d98bc6e54.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_2f5a29913877107dc14900c9c3da9e13 = L.polygon(
+                [[10.7202738, 106.7328739], [10.7207807, 106.7337205], [10.7200988, 106.7341436], [10.7195917, 106.733297], [10.7202738, 106.7328739], [10.7202738, 106.7328739]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_14c145f113db83e68fd5492b877e9c7f = L.marker(
+                [10.71586457212298, 106.73161112427563],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_5013ad2d9f2118c7730638502d0fef19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_14c145f113db83e68fd5492b877e9c7f.setIcon(icon_5013ad2d9f2118c7730638502d0fef19);
+        
+    
+        var popup_8d0b8ae074447c4ee84eecf3e9556048 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf97b3accc1420352b22c8ba33fcb688 = $(`<div id="html_bf97b3accc1420352b22c8ba33fcb688" style="width: 100.0%; height: 100.0%;">Trường Mầm non Canada- Việt Nam</div>`)[0];
+                popup_8d0b8ae074447c4ee84eecf3e9556048.setContent(html_bf97b3accc1420352b22c8ba33fcb688);
+            
+        
+
+        marker_14c145f113db83e68fd5492b877e9c7f.bindPopup(popup_8d0b8ae074447c4ee84eecf3e9556048)
+        ;
+
+        
+    
+    
+            marker_14c145f113db83e68fd5492b877e9c7f.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_129a70fbf2372c5f1ead313088cc3cb7 = L.polygon(
+                [[10.7168543, 106.7320771], [10.7165108, 106.7323088], [10.7160514, 106.7319714], [10.715636, 106.7317966], [10.7154323, 106.7316584], [10.715337, 106.7315731], [10.7150066, 106.7311061], [10.7153806, 106.730868], [10.7155985, 106.7311552], [10.7168543, 106.7320771], [10.7168543, 106.7320771]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_828a019cc412297cd7e20a46b429b1f0 = L.marker(
+                [10.73982324033008, 106.72467374321536],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_2fb1dec685966dbd3216c4cf7f9e138e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_828a019cc412297cd7e20a46b429b1f0.setIcon(icon_2fb1dec685966dbd3216c4cf7f9e138e);
+        
+    
+        var popup_15aca3350bc3a2c9aa854e20974ab60f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7493cb5ee2c485a9617f5cb307808e48 = $(`<div id="html_7493cb5ee2c485a9617f5cb307808e48" style="width: 100.0%; height: 100.0%;">Trung tâm GDTX quận 7</div>`)[0];
+                popup_15aca3350bc3a2c9aa854e20974ab60f.setContent(html_7493cb5ee2c485a9617f5cb307808e48);
+            
+        
+
+        marker_828a019cc412297cd7e20a46b429b1f0.bindPopup(popup_15aca3350bc3a2c9aa854e20974ab60f)
+        ;
+
+        
+    
+    
+            marker_828a019cc412297cd7e20a46b429b1f0.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4eb11e166e0874a2bd643023b46bc089 = L.polygon(
+                [[10.7402439, 106.7243783], [10.7402176, 106.7250203], [10.7394007, 106.7249666], [10.7394147, 106.7244355], [10.7395061, 106.7243265], [10.7402439, 106.7243783], [10.7402439, 106.7243783]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_3ebd6d3c34d3967e93069a42f84a948f = L.marker(
+                [10.739759176898446, 106.72562788326445],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_c6cadada2ce391b484bbd57fb6718d8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_3ebd6d3c34d3967e93069a42f84a948f.setIcon(icon_c6cadada2ce391b484bbd57fb6718d8c);
+        
+    
+        var popup_efc9a5055fa083b8b77eb927b4812739 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_356da2643a54de88cf7fa32eea093d67 = $(`<div id="html_356da2643a54de88cf7fa32eea093d67" style="width: 100.0%; height: 100.0%;">Trường THCS Nguyễn Hiền</div>`)[0];
+                popup_efc9a5055fa083b8b77eb927b4812739.setContent(html_356da2643a54de88cf7fa32eea093d67);
+            
+        
+
+        marker_3ebd6d3c34d3967e93069a42f84a948f.bindPopup(popup_efc9a5055fa083b8b77eb927b4812739)
+        ;
+
+        
+    
+    
+            marker_3ebd6d3c34d3967e93069a42f84a948f.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_76ee88aebb85d75be18061edcdd33999 = L.polygon(
+                [[10.7402176, 106.7250203], [10.7401463, 106.7261875], [10.7393155, 106.7263339], [10.7394007, 106.7249666], [10.7402176, 106.7250203], [10.7402176, 106.7250203]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_52727e9a961fe62c51bac80129437507 = L.marker(
+                [10.723672894726187, 106.72380450217594],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_b6fa3e05e7289fc127392fbceb4e67f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_52727e9a961fe62c51bac80129437507.setIcon(icon_b6fa3e05e7289fc127392fbceb4e67f0);
+        
+    
+        var popup_0436c6c8143cf7780443103997516caa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94ecb7d029782beb980cde4e0c733e35 = $(`<div id="html_94ecb7d029782beb980cde4e0c733e35" style="width: 100.0%; height: 100.0%;">Trường THPT Nam Sài Gòn</div>`)[0];
+                popup_0436c6c8143cf7780443103997516caa.setContent(html_94ecb7d029782beb980cde4e0c733e35);
+            
+        
+
+        marker_52727e9a961fe62c51bac80129437507.bindPopup(popup_0436c6c8143cf7780443103997516caa)
+        ;
+
+        
+    
+    
+            marker_52727e9a961fe62c51bac80129437507.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f154b818cc1cf3258dc16317300f9699 = L.polygon(
+                [[10.7246294, 106.723971], [10.7244686, 106.7240726], [10.7243046, 106.7241745], [10.7240695, 106.7243211], [10.7238826, 106.7244381], [10.7236303, 106.7245961], [10.7225405, 106.7238373], [10.7239982, 106.7229257], [10.7246294, 106.723971], [10.7246294, 106.723971]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_90d29e35066e89e2550e094b424ddb11 = L.marker(
+                [10.7283946365202, 106.72706602351765],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_eb6c863aeeb58d9f4f6ec6b57e6d687a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_90d29e35066e89e2550e094b424ddb11.setIcon(icon_eb6c863aeeb58d9f4f6ec6b57e6d687a);
+        
+    
+        var popup_1cf436c0dfb22c910b4b7445df4ef348 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4edf823f70a7bf4d56f5ec70d0079b20 = $(`<div id="html_4edf823f70a7bf4d56f5ec70d0079b20" style="width: 100.0%; height: 100.0%;">Trường Đinh Thiện Lý</div>`)[0];
+                popup_1cf436c0dfb22c910b4b7445df4ef348.setContent(html_4edf823f70a7bf4d56f5ec70d0079b20);
+            
+        
+
+        marker_90d29e35066e89e2550e094b424ddb11.bindPopup(popup_1cf436c0dfb22c910b4b7445df4ef348)
+        ;
+
+        
+    
+    
+            marker_90d29e35066e89e2550e094b424ddb11.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_a389bcd720fb8515f45378e1a6fd8886 = L.polygon(
+                [[10.7285225, 106.7264023], [10.7277159, 106.726903], [10.7281768, 106.7276675], [10.7282639, 106.7277354], [10.7290374, 106.7272515], [10.7290469, 106.7271826], [10.7286785, 106.7265726], [10.7285906, 106.7264269], [10.7285225, 106.7264023], [10.7285225, 106.7264023]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_ace3c45e8472e47fefaf00c8da89962f = L.marker(
+                [10.735001035586398, 106.71944559973379],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_2bba153d827834eb167d12297f741976 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_ace3c45e8472e47fefaf00c8da89962f.setIcon(icon_2bba153d827834eb167d12297f741976);
+        
+    
+        var popup_73e7bd710bd412ee7fc9f58f05e63dcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef91989563633082c15179b77c74f68c = $(`<div id="html_ef91989563633082c15179b77c74f68c" style="width: 100.0%; height: 100.0%;">Trường Tiểu học Đinh Bộ Lĩnh</div>`)[0];
+                popup_73e7bd710bd412ee7fc9f58f05e63dcb.setContent(html_ef91989563633082c15179b77c74f68c);
+            
+        
+
+        marker_ace3c45e8472e47fefaf00c8da89962f.bindPopup(popup_73e7bd710bd412ee7fc9f58f05e63dcb)
+        ;
+
+        
+    
+    
+            marker_ace3c45e8472e47fefaf00c8da89962f.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4d33371798780496d8db0275657727da = L.polygon(
+                [[10.735358, 106.7197567], [10.7353913, 106.7191775], [10.734645, 106.7191382], [10.7346061, 106.7197082], [10.735358, 106.7197567], [10.735358, 106.7197567]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_938455576408417c6bf09afa0a8fdfbc = L.marker(
+                [10.748949107971141, 106.72545187553771],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_88d6387ee6c6ee01f43c1c5733ad09a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_938455576408417c6bf09afa0a8fdfbc.setIcon(icon_88d6387ee6c6ee01f43c1c5733ad09a3);
+        
+    
+        var popup_a8f352fca52540b64186b2303d78ff64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf8d5ead6d465ed1a1193fac4490df7d = $(`<div id="html_cf8d5ead6d465ed1a1193fac4490df7d" style="width: 100.0%; height: 100.0%;">Trường Mầm non - Tiểu học - THCS Pathway Tuệ Đức - Cơ sở Eco Green, Quận 7</div>`)[0];
+                popup_a8f352fca52540b64186b2303d78ff64.setContent(html_cf8d5ead6d465ed1a1193fac4490df7d);
+            
+        
+
+        marker_938455576408417c6bf09afa0a8fdfbc.bindPopup(popup_a8f352fca52540b64186b2303d78ff64)
+        ;
+
+        
+    
+    
+            marker_938455576408417c6bf09afa0a8fdfbc.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_96e7b5aa6a1d6956c305bc6837407197 = L.polygon(
+                [[10.7492197, 106.7252225], [10.7492509, 106.7254639], [10.7492822, 106.7257053], [10.7487361, 106.7257708], [10.7486485, 106.7250783], [10.7488731, 106.7250835], [10.7489002, 106.7252608], [10.7492197, 106.7252225], [10.7492197, 106.7252225]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_2c3b2fd83be4eda398c1620e5885cb12 = L.marker(
+                [10.736851637601161, 106.72679199219394],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_de973e5cf4b0edca5f2b755c1ecb9ba3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_2c3b2fd83be4eda398c1620e5885cb12.setIcon(icon_de973e5cf4b0edca5f2b755c1ecb9ba3);
+        
+    
+        var popup_0f8517e8559afdc22a819b1bd093520b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68fdf292932cad653c753d58ac5dffb9 = $(`<div id="html_68fdf292932cad653c753d58ac5dffb9" style="width: 100.0%; height: 100.0%;">Trường Quốc tế Việt Úc - Cơ sở Riverside</div>`)[0];
+                popup_0f8517e8559afdc22a819b1bd093520b.setContent(html_68fdf292932cad653c753d58ac5dffb9);
+            
+        
+
+        marker_2c3b2fd83be4eda398c1620e5885cb12.bindPopup(popup_0f8517e8559afdc22a819b1bd093520b)
+        ;
+
+        
+    
+    
+            marker_2c3b2fd83be4eda398c1620e5885cb12.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_85b776d7a64ef7cbadf80cfdab8563a2 = L.polygon(
+                [[10.7373014, 106.7262608], [10.7373589, 106.7270711], [10.7373438, 106.7271728], [10.7371954, 106.7271759], [10.7371954, 106.7272406], [10.7363933, 106.7273084], [10.7363478, 106.7264395], [10.7363902, 106.726381], [10.7373014, 106.7262608], [10.7373014, 106.7262608]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_5d4634d891079ce7c0744f6cbb9ba453 = L.marker(
+                [10.70059587474828, 106.72944889308756],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_98710f1cc27bc999af38e3316791e196 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_5d4634d891079ce7c0744f6cbb9ba453.setIcon(icon_98710f1cc27bc999af38e3316791e196);
+        
+    
+        var popup_a7af1599b52f2ef17f935957911e4c24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5e04c2d0e5aa4be759fcf8d79a515fa = $(`<div id="html_f5e04c2d0e5aa4be759fcf8d79a515fa" style="width: 100.0%; height: 100.0%;">Trường Tiểu học Phạm Hữu Lầu</div>`)[0];
+                popup_a7af1599b52f2ef17f935957911e4c24.setContent(html_f5e04c2d0e5aa4be759fcf8d79a515fa);
+            
+        
+
+        marker_5d4634d891079ce7c0744f6cbb9ba453.bindPopup(popup_a7af1599b52f2ef17f935957911e4c24)
+        ;
+
+        
+    
+    
+            marker_5d4634d891079ce7c0744f6cbb9ba453.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_340ebb2824292500c9b0dccd2b31f65a = L.polygon(
+                [[10.7007109, 106.7288084], [10.7004515, 106.7288481], [10.7004136, 106.728891], [10.700266, 106.7298417], [10.7003039, 106.7298952], [10.7008585, 106.729994], [10.7009207, 106.7299296], [10.7007594, 106.7288481], [10.7007109, 106.7288084], [10.7007109, 106.7288084]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_dbb905eda914769ff4abeb798d7308c0 = L.marker(
+                [10.700949229915123, 106.7308154163193],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_ad5ff613a7272ec8333732b68b2338e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_dbb905eda914769ff4abeb798d7308c0.setIcon(icon_ad5ff613a7272ec8333732b68b2338e6);
+        
+    
+        var popup_8993f00fe9e68f54744a5753f84ed767 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_252a005f6bdebe32385fdaaefc49513e = $(`<div id="html_252a005f6bdebe32385fdaaefc49513e" style="width: 100.0%; height: 100.0%;">Trường THCS Phạm Hữu Lầu</div>`)[0];
+                popup_8993f00fe9e68f54744a5753f84ed767.setContent(html_252a005f6bdebe32385fdaaefc49513e);
+            
+        
+
+        marker_dbb905eda914769ff4abeb798d7308c0.bindPopup(popup_8993f00fe9e68f54744a5753f84ed767)
+        ;
+
+        
+    
+    
+            marker_dbb905eda914769ff4abeb798d7308c0.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_6c866b7412af1d36488d19a3cd2f91b0 = L.polygon(
+                [[10.7011411, 106.7310733], [10.7010602, 106.7315518], [10.7004245, 106.7314427], [10.7003918, 106.7313869], [10.7005995, 106.7301692], [10.7006564, 106.7301252], [10.7013986, 106.7302518], [10.7014545, 106.7303194], [10.7015716, 106.7311486], [10.7011411, 106.7310733], [10.7011411, 106.7310733]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_804b0440aa8f9506a05f05478e1410ba = L.marker(
+                [10.713832585992709, 106.72928914182002],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_0d2f113f454fa9454d87704841431e82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_804b0440aa8f9506a05f05478e1410ba.setIcon(icon_0d2f113f454fa9454d87704841431e82);
+        
+    
+        var popup_58a54a2c1aee7c55b78f0e42bbbe51c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bff36dfbfc2e088b8a620728d101aae1 = $(`<div id="html_bff36dfbfc2e088b8a620728d101aae1" style="width: 100.0%; height: 100.0%;">Trường Quốc tế Canada</div>`)[0];
+                popup_58a54a2c1aee7c55b78f0e42bbbe51c3.setContent(html_bff36dfbfc2e088b8a620728d101aae1);
+            
+        
+
+        marker_804b0440aa8f9506a05f05478e1410ba.bindPopup(popup_58a54a2c1aee7c55b78f0e42bbbe51c3)
+        ;
+
+        
+    
+    
+            marker_804b0440aa8f9506a05f05478e1410ba.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_376980cd8176fbbc19517e798eb9c6b9 = L.polygon(
+                [[10.7135774, 106.7279412], [10.7131062, 106.7282234], [10.7130998, 106.7286193], [10.7132253, 106.729543], [10.7133465, 106.7298574], [10.7135531, 106.7300215], [10.7139358, 106.7301717], [10.7143849, 106.7304142], [10.7148308, 106.730131], [10.7148508, 106.7300462], [10.7135774, 106.7279412], [10.7135774, 106.7279412]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_40923870c032fc227e202d124e8557d6 = L.marker(
+                [10.71452211563425, 106.72818639341736],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_a326fbd6d52cbe3791d3d713843943e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_40923870c032fc227e202d124e8557d6.setIcon(icon_a326fbd6d52cbe3791d3d713843943e6);
+        
+    
+        var popup_9180ff8da37cd4e0eac7f620359e6582 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d771c7b0f1dd1bdd609fca9ec7cca823 = $(`<div id="html_d771c7b0f1dd1bdd609fca9ec7cca823" style="width: 100.0%; height: 100.0%;">Sedbergh Vietnam BCIS</div>`)[0];
+                popup_9180ff8da37cd4e0eac7f620359e6582.setContent(html_d771c7b0f1dd1bdd609fca9ec7cca823);
+            
+        
+
+        marker_40923870c032fc227e202d124e8557d6.bindPopup(popup_9180ff8da37cd4e0eac7f620359e6582)
+        ;
+
+        
+    
+    
+            marker_40923870c032fc227e202d124e8557d6.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_6292a9c37780c4ad312358990da673f2 = L.polygon(
+                [[10.7146752, 106.7274915], [10.7146077, 106.7274776], [10.7138687, 106.7279335], [10.7138487, 106.7280129], [10.7143695, 106.7288755], [10.7144401, 106.7288959], [10.7151844, 106.7284335], [10.7151949, 106.7283659], [10.7146752, 106.7274915], [10.7146752, 106.7274915]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_61c5dcfd002a96f9f5e3e880b86b0742 = L.marker(
+                [10.73663456624225, 106.73281648545252],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_546c238b0553978a02b3c61a28260db5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_61c5dcfd002a96f9f5e3e880b86b0742.setIcon(icon_546c238b0553978a02b3c61a28260db5);
+        
+    
+        var popup_faa4c746a5c1754dd3aeda687328116a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10c49b74b402d90bac369353dd949d63 = $(`<div id="html_10c49b74b402d90bac369353dd949d63" style="width: 100.0%; height: 100.0%;">Trường Tiểu học Phú Thuận</div>`)[0];
+                popup_faa4c746a5c1754dd3aeda687328116a.setContent(html_10c49b74b402d90bac369353dd949d63);
+            
+        
+
+        marker_61c5dcfd002a96f9f5e3e880b86b0742.bindPopup(popup_faa4c746a5c1754dd3aeda687328116a)
+        ;
+
+        
+    
+    
+            marker_61c5dcfd002a96f9f5e3e880b86b0742.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_67df98ab151ec79a5fc9ac55c07705da = L.polygon(
+                [[10.7371247, 106.7323819], [10.7371737, 106.7324096], [10.737326, 106.7330646], [10.7364358, 106.7331587], [10.7364122, 106.7330591], [10.7361253, 106.7331518], [10.7360966, 106.7330288], [10.735904, 106.7330751], [10.7358528, 106.7327045], [10.7368708, 106.7324539], [10.7371247, 106.7323819], [10.7371247, 106.7323819]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_0e692fbe45c0d9aa3f8634922750c4f4 = L.marker(
+                [10.743149035342338, 106.72914655389903],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_96f72e394c9eed0d764049dadb53cfa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_0e692fbe45c0d9aa3f8634922750c4f4.setIcon(icon_96f72e394c9eed0d764049dadb53cfa5);
+        
+    
+        var popup_b1ccadeccec849b5ea4dadb6ec6b9a9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1df2ceef0f2d26d93ca9745950ee1f4f = $(`<div id="html_1df2ceef0f2d26d93ca9745950ee1f4f" style="width: 100.0%; height: 100.0%;">Trường THCS Huỳnh Tấn Phát</div>`)[0];
+                popup_b1ccadeccec849b5ea4dadb6ec6b9a9e.setContent(html_1df2ceef0f2d26d93ca9745950ee1f4f);
+            
+        
+
+        marker_0e692fbe45c0d9aa3f8634922750c4f4.bindPopup(popup_b1ccadeccec849b5ea4dadb6ec6b9a9e)
+        ;
+
+        
+    
+    
+            marker_0e692fbe45c0d9aa3f8634922750c4f4.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e98544529669d377cad710163c1b58e1 = L.polygon(
+                [[10.7435318, 106.7287936], [10.7435698, 106.7290584], [10.7433637, 106.7290892], [10.7434118, 106.7294654], [10.7432084, 106.7294978], [10.7428684, 106.7295521], [10.742807, 106.7288712], [10.7435318, 106.7287936], [10.7435318, 106.7287936]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_4d0ebd0d7b9e3da4c2abf18cd222d971 = L.marker(
+                [10.73194129106728, 106.73671198328555],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_e0e559c8409fed4d1bed169decf605dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_4d0ebd0d7b9e3da4c2abf18cd222d971.setIcon(icon_e0e559c8409fed4d1bed169decf605dd);
+        
+    
+        var popup_e10a2593b167db934bdf283c805d099e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bd8833004fc5687baa412f225faf462 = $(`<div id="html_5bd8833004fc5687baa412f225faf462" style="width: 100.0%; height: 100.0%;">Trường Tiểu học Lê Anh Xuân</div>`)[0];
+                popup_e10a2593b167db934bdf283c805d099e.setContent(html_5bd8833004fc5687baa412f225faf462);
+            
+        
+
+        marker_4d0ebd0d7b9e3da4c2abf18cd222d971.bindPopup(popup_e10a2593b167db934bdf283c805d099e)
+        ;
+
+        
+    
+    
+            marker_4d0ebd0d7b9e3da4c2abf18cd222d971.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9a21065bca101fe94ae5760157feed4b = L.polygon(
+                [[10.7324483, 106.7366], [10.7315255, 106.736543], [10.731505, 106.7365505], [10.7314935, 106.736574], [10.7314897, 106.7366719], [10.7314859, 106.7367697], [10.7315424, 106.7367779], [10.7317028, 106.7368242], [10.7318766, 106.7368703], [10.732087, 106.7369234], [10.7321777, 106.7369092], [10.7322336, 106.736875], [10.7322833, 106.7368315], [10.7323986, 106.7366684], [10.7324483, 106.7366], [10.7324483, 106.7366]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_6feca6d77dae3f88bb47520bb7982a70 = L.marker(
+                [10.7450191495356, 106.73459729235104],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_5e08e9f51bffd87f98cd4cc3134925f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_6feca6d77dae3f88bb47520bb7982a70.setIcon(icon_5e08e9f51bffd87f98cd4cc3134925f8);
+        
+    
+        var popup_d83c2adfc1477d4449ac738b81358db9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85a3e0f5d1090076d465ddda382774f9 = $(`<div id="html_85a3e0f5d1090076d465ddda382774f9" style="width: 100.0%; height: 100.0%;">Trường Song ngữ Quốc tế EMASI Nam Long</div>`)[0];
+                popup_d83c2adfc1477d4449ac738b81358db9.setContent(html_85a3e0f5d1090076d465ddda382774f9);
+            
+        
+
+        marker_6feca6d77dae3f88bb47520bb7982a70.bindPopup(popup_d83c2adfc1477d4449ac738b81358db9)
+        ;
+
+        
+    
+    
+            marker_6feca6d77dae3f88bb47520bb7982a70.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e0773b56ad424ae0ef1bba72ac5ac330 = L.polygon(
+                [[10.7454628, 106.7341618], [10.7447472, 106.7340577], [10.7446918, 106.7340924], [10.7445725, 106.734987], [10.7446166, 106.7350419], [10.7453507, 106.7351344], [10.7454628, 106.7341618], [10.7454628, 106.7341618]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_e79deeb4302740e9f8134024e7fc9546 = L.marker(
+                [10.737623209468198, 106.70852053743387],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_fb3c15aee0a20fa51aa9201c4c82c2fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_e79deeb4302740e9f8134024e7fc9546.setIcon(icon_fb3c15aee0a20fa51aa9201c4c82c2fb);
+        
+    
+        var popup_2e3aaf3fa1a76e57edd82502311f482d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7861c745d8ce8a2acf5e35de23d05da = $(`<div id="html_f7861c745d8ce8a2acf5e35de23d05da" style="width: 100.0%; height: 100.0%;">Trường Tiểu học Đinh Bộ Lĩnh</div>`)[0];
+                popup_2e3aaf3fa1a76e57edd82502311f482d.setContent(html_f7861c745d8ce8a2acf5e35de23d05da);
+            
+        
+
+        marker_e79deeb4302740e9f8134024e7fc9546.bindPopup(popup_2e3aaf3fa1a76e57edd82502311f482d)
+        ;
+
+        
+    
+    
+            marker_e79deeb4302740e9f8134024e7fc9546.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_cf72c2cef6ad3ef1804818551536c12b = L.polygon(
+                [[10.7379616, 106.7083344], [10.7378923, 106.7088003], [10.7372848, 106.7087067], [10.7373542, 106.7082407], [10.7377429, 106.7083007], [10.7379616, 106.7083344], [10.7379616, 106.7083344]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var marker_bea10f43b23042ac43d63404699802ca = L.marker(
+                [10.74828818287966, 106.72544375727628],
+                {}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var icon_a89250071d08548cc6c91b56fff2b8c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_bea10f43b23042ac43d63404699802ca.setIcon(icon_a89250071d08548cc6c91b56fff2b8c4);
+        
+    
+        var popup_837a0fcdeed5c5a6f1a77c72625afbf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c729ea0de3a174869122dac79d2fc7be = $(`<div id="html_c729ea0de3a174869122dac79d2fc7be" style="width: 100.0%; height: 100.0%;">Trường Tiểu học Kim Đồng</div>`)[0];
+                popup_837a0fcdeed5c5a6f1a77c72625afbf3.setContent(html_c729ea0de3a174869122dac79d2fc7be);
+            
+        
+
+        marker_bea10f43b23042ac43d63404699802ca.bindPopup(popup_837a0fcdeed5c5a6f1a77c72625afbf3)
+        ;
+
+        
+    
+    
+            marker_bea10f43b23042ac43d63404699802ca.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_c505781d5f18951ffd82e267e4126477 = L.polygon(
+                [[10.7487361, 106.7257708], [10.7479649, 106.7258655], [10.7478426, 106.7250646], [10.7482984, 106.7250723], [10.7486485, 106.7250783], [10.7487361, 106.7257708], [10.7487361, 106.7257708]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+    
+            var polygon_58fb0470ffacd65c3e4d22f6a521d4a7 = L.polygon(
+                [[10.7431427, 106.7686561], [10.7440812, 106.7605662], [10.7440883, 106.7601692], [10.7440889, 106.7597722], [10.744083, 106.7593752], [10.7440706, 106.7589784], [10.7440515, 106.758578], [10.7440259, 106.7581781], [10.7439936, 106.7577786], [10.7439547, 106.7573798], [10.7438916, 106.7569444], [10.7438192, 106.7565106], [10.7437377, 106.7560784], [10.743647, 106.7556481], [10.7435471, 106.75522], [10.7434382, 106.7547941], [10.7433295, 106.7544029], [10.7432132, 106.754014], [10.7430893, 106.7536276], [10.7429578, 106.7532437], [10.7428188, 106.7528626], [10.7426724, 106.7524844], [10.7425185, 106.7521092], [10.7424353, 106.7518252], [10.7423611, 106.7515387], [10.7422959, 106.7512499], [10.7422397, 106.7509591], [10.7421927, 106.7506666], [10.7421549, 106.7503728], [10.7421263, 106.7500779], [10.7421069, 106.7497822], [10.7420969, 106.749486], [10.742096, 106.7491947], [10.7421041, 106.7489034], [10.7421212, 106.7486126], [10.7421472, 106.7483224], [10.7421822, 106.7480332], [10.742226, 106.7477453], [10.7422863, 106.7475629], [10.742354, 106.7473831], [10.7424288, 106.7472063], [10.7425107, 106.7470328], [10.7425995, 106.7468629], [10.7426951, 106.7466968], [10.7427973, 106.7465349], [10.7429059, 106.7463773], [10.7430337, 106.746208], [10.743169, 106.7460447], [10.7433115, 106.7458879], [10.7434608, 106.7457379], [10.7436167, 106.7455949], [10.7437788, 106.7454593], [10.7439468, 106.7453313], [10.7441616, 106.7451937], [10.7443801, 106.7450623], [10.7443801, 106.7450623], [10.7446022, 106.7449372], [10.7448276, 106.7448185], [10.7450562, 106.7447063], [10.7452881, 106.7446006], [10.7455228, 106.7445015], [10.7457601, 106.7444091], [10.7459999, 106.7443236], [10.746242, 106.744245], [10.7464701, 106.7441954], [10.7466999, 106.7441547], [10.7469311, 106.744123], [10.7471633, 106.7441003], [10.7473962, 106.7440867], [10.7476196, 106.7440823], [10.747843, 106.7440861], [10.7480661, 106.7440984], [10.7482886, 106.7441189], [10.7485103, 106.7441478], [10.7487307, 106.7441849], [10.7489496, 106.7442302], [10.7493188, 106.7443435], [10.7496854, 106.7444647], [10.7500495, 106.7445938], [10.7504108, 106.7447307], [10.7507692, 106.7448753], [10.7511183, 106.7450249], [10.7514643, 106.7451818], [10.751807, 106.745346], [10.7521463, 106.7455175], [10.752482, 106.7456961], [10.7528795, 106.7459293], [10.7532734, 106.7461688], [10.7536636, 106.7464144], [10.7540501, 106.7466661], [10.7544328, 106.7469237], [10.7548115, 106.7471874], [10.7552165, 106.7474791], [10.7556167, 106.7477776], [10.756012, 106.7480829], [10.7564023, 106.7483948], [10.7567874, 106.7487132], [10.7571672, 106.7490381], [10.7575142, 106.7493445], [10.7578669, 106.749644], [10.7582253, 106.7499364], [10.7585893, 106.7502217], [10.7589585, 106.7504998], [10.7593331, 106.7507704], [10.7597127, 106.7510337], [10.7600662, 106.751269], [10.7604237, 106.7514979], [10.7607852, 106.7517203], [10.7609817, 106.7518314], [10.7611818, 106.7519357], [10.7613851, 106.7520333], [10.7615915, 106.752124], [10.7617929, 106.7522047], [10.7619968, 106.7522788], [10.7622029, 106.7523462], [10.762411, 106.7524069], [10.7626517, 106.7524697], [10.7628939, 106.7525258], [10.7631376, 106.7525752], [10.7633824, 106.7526178], [10.7636284, 106.7526537], [10.7639233, 106.7526877], [10.7642192, 106.7527119], [10.7645157, 106.7527264], [10.7648125, 106.7527312], [10.7651092, 106.7527261], [10.7654005, 106.7526954], [10.7656908, 106.7526561], [10.7659798, 106.7526083], [10.7662674, 106.7525521], [10.7665532, 106.7524874], [10.7668315, 106.7524159], [10.7671076, 106.7523365], [10.7673815, 106.7522491], [10.7676528, 106.7521539], [10.7679213, 106.7520509], [10.7681869, 106.7519402], [10.7684425, 106.7518294], [10.7686949, 106.7517111], [10.7689439, 106.7515854], [10.7691892, 106.7514526], [10.7694306, 106.7513126], [10.7696598, 106.7511709], [10.769885, 106.7510228], [10.770106, 106.7508683], [10.7703228, 106.7507077], [10.7705351, 106.7505411], [10.7707428, 106.7503685], [10.7710634, 106.7500998], [10.7713793, 106.7498253], [10.7716903, 106.7495452], [10.7719964, 106.7492595], [10.7722975, 106.7489684], [10.7726094, 106.7486554], [10.7729156, 106.7483365], [10.7732159, 106.7480119], [10.7735101, 106.7476816], [10.7735101, 106.7476816], [10.7737849, 106.7473734], [10.7740551, 106.7470609], [10.7743204, 106.7467441], [10.7745988, 106.7464009], [10.7748716, 106.746053], [10.7751386, 106.7457006], [10.7754024, 106.7453531], [10.775661, 106.7450015], [10.7759144, 106.7446461], [10.7761194, 106.74435], [10.7763208, 106.7440514], [10.7765186, 106.7437503], [10.7765186, 106.7437503], [10.7766638, 106.7434992], [10.7768017, 106.743244], [10.7769324, 106.7429848], [10.7770556, 106.7427218], [10.7771731, 106.7424511], [10.7772827, 106.742177], [10.7773415, 106.7419952], [10.777396, 106.741812], [10.7774461, 106.7416275], [10.7775037, 106.7413911], [10.7775541, 106.7411532], [10.7775974, 106.7409137], [10.7776336, 106.740673], [10.7776626, 106.7404314], [10.7776805, 106.7402244], [10.7776895, 106.7400168], [10.7776896, 106.739809], [10.7776808, 106.7396015], [10.7776632, 106.7393945], [10.7776367, 106.7391885], [10.7776019, 106.7389863], [10.7775585, 106.7387858], [10.7775067, 106.7385875], [10.7774466, 106.7383916], [10.7773783, 106.7381985], [10.7773018, 106.7380085], [10.7772026, 106.7378086], [10.777096, 106.7376126], [10.7769822, 106.7374208], [10.7768613, 106.7372336], [10.7767447, 106.7370666], [10.7766226, 106.7369038], [10.7764949, 106.7367454], [10.776362, 106.7365916], [10.776362, 106.7365916], [10.7762114, 106.7364339], [10.776055, 106.7362823], [10.7758929, 106.7361369], [10.7757254, 106.735998], [10.7755529, 106.7358658], [10.7753754, 106.7357404], [10.7751962, 106.7356239], [10.7750129, 106.7355144], [10.7748255, 106.735412], [10.7746345, 106.735317], [10.7744401, 106.7352294], [10.7742426, 106.7351494], [10.7739956, 106.7350518], [10.7737455, 106.734963], [10.7734925, 106.7348828], [10.7732371, 106.7348115], [10.7729793, 106.734749], [10.7727498, 106.7347013], [10.7725189, 106.7346606], [10.7722869, 106.7346271], [10.772054, 106.7346007], [10.7718205, 106.7345814], [10.7715865, 106.7345693], [10.7700759, 106.7345133], [10.7682659, 106.7344427], [10.767884, 106.7344219], [10.7675026, 106.7343934], [10.7671217, 106.7343574], [10.7667417, 106.7343138], [10.7663626, 106.7342626], [10.7659845, 106.7342038], [10.7656076, 106.7341375], [10.7652019, 106.7340575], [10.764798, 106.7339688], [10.764396, 106.7338714], [10.7639961, 106.7337653], [10.7635985, 106.7336507], [10.7633743, 106.7335663], [10.7631528, 106.733475], [10.762934, 106.7333769], [10.7627184, 106.733272], [10.7625059, 106.7331604], [10.7622969, 106.7330423], [10.7620916, 106.7329178], [10.7618692, 106.7327729], [10.7616518, 106.7326204], [10.7614395, 106.7324605], [10.7612326, 106.7322934], [10.7610314, 106.7321193], [10.7608745, 106.7319223], [10.7607251, 106.7317192], [10.7605835, 106.7315105], [10.7604498, 106.7312965], [10.7603242, 106.7310774], [10.760207, 106.7308536], [10.7601008, 106.730631], [10.7600029, 106.7304046], [10.7599133, 106.7301746], [10.7598322, 106.7299414], [10.7597597, 106.7297053], [10.7596959, 106.7294666], [10.7596409, 106.7292256], [10.7595555, 106.7287061], [10.7594765, 106.7281855], [10.759404, 106.727664], [10.759329, 106.7270676], [10.7592624, 106.7264702], [10.7592041, 106.7258719], [10.759186, 106.7255052], [10.7591743, 106.7251382], [10.7591689, 106.7247711], [10.75917, 106.724404], [10.7591774, 106.724037], [10.7591933, 106.723628], [10.759217, 106.7232194], [10.7592487, 106.7228114], [10.7592883, 106.722404], [10.7593358, 106.7219976], [10.7593358, 106.7219976], [10.7569542, 106.7211227], [10.7560959, 106.7206817], [10.7560959, 106.7206817], [10.7559147, 106.7205887], [10.7554436, 106.7203445], [10.7542639, 106.7195435], [10.7534389, 106.7185974], [10.7530279, 106.7179565], [10.7527399, 106.7169189], [10.7526501, 106.715818], [10.7526501, 106.715818], [10.7525587, 106.7144089], [10.7525628, 106.7141093], [10.7525628, 106.7141093], [10.752512, 106.7102127], [10.752511, 106.7100983], [10.7525105, 106.7099608], [10.7525105, 106.7099608], [10.7524958, 106.7058182], [10.7525084, 106.7050033], [10.7525084, 106.7050033], [10.7523609, 106.7021754], [10.7523609, 106.7021754], [10.7523327, 106.7011857], [10.7523538, 106.7006117], [10.752338, 106.6998553], [10.7523485, 106.6991579], [10.7523854, 106.6984928], [10.7523854, 106.6979295], [10.7523802, 106.696642], [10.7523673, 106.695793], [10.7523673, 106.695793], [10.7523854, 106.6915619], [10.7523433, 106.6913581], [10.75228, 106.691004], [10.7521641, 106.6906822], [10.7520798, 106.6902101], [10.7520798, 106.6902101], [10.7510323, 106.6903148], [10.7500553, 106.6904447], [10.749415, 106.6908337], [10.7485059, 106.6915738], [10.7479794, 106.6919401], [10.7474466, 106.6922148], [10.7469511, 106.6923523], [10.7463894, 106.6925583], [10.7457151, 106.692688], [10.7450857, 106.6927261], [10.7445698, 106.692749], [10.7440319, 106.6926804], [10.7433043, 106.6923218], [10.7429018, 106.6920471], [10.7426109, 106.6919098], [10.7422972, 106.6918411], [10.7418928, 106.6918411], [10.7415766, 106.6921011], [10.7415766, 106.6921011], [10.7400871, 106.6929986], [10.7386878, 106.6939522], [10.7383244, 106.6941718], [10.7377851, 106.6945295], [10.7372739, 106.694684], [10.7367866, 106.6947938], [10.7363991, 106.6948792], [10.7363991, 106.6948792], [10.735784, 106.694871], [10.7353007, 106.6947653], [10.734366, 106.6943507], [10.7335791, 106.6937774], [10.7327683, 106.6930944], [10.7315254, 106.691423], [10.7311561, 106.6908684], [10.7308594, 106.6905664], [10.7305749, 106.6904247], [10.7302298, 106.6903015], [10.7299452, 106.6902337], [10.7296001, 106.6901905], [10.7283359, 106.6901985], [10.7279152, 106.6901962], [10.7271687, 106.6902193], [10.7253805, 106.6902365], [10.7253805, 106.6902365], [10.7253361, 106.6906433], [10.7254219, 106.6910172], [10.7255278, 106.6914749], [10.7255697, 106.6918488], [10.7255888, 106.6922455], [10.7255888, 106.6923065], [10.7247686, 106.6957245], [10.7245874, 106.6964798], [10.7244854, 106.6969299], [10.7244377, 106.6974792], [10.724432, 106.6976929], [10.724412, 106.6983566], [10.7244301, 106.6988831], [10.724535, 106.6997223], [10.7246189, 106.7003403], [10.7246902, 106.700763], [10.7247636, 106.7012767], [10.7249104, 106.7017811], [10.7252041, 106.703154], [10.7253601, 106.7038359], [10.7253036, 106.7045288], [10.7250605, 106.7053604], [10.7248163, 106.7060623], [10.7245083, 106.7066345], [10.7242451, 106.706871], [10.7238302, 106.7070465], [10.723197, 106.7071304], [10.7222281, 106.7070618], [10.7213202, 106.7071228], [10.7205772, 106.707283], [10.7199049, 106.7076416], [10.719676, 106.7080078], [10.7195873, 106.7082291], [10.7195692, 106.7085953], [10.7196751, 106.7090378], [10.7202063, 106.7098846], [10.7206011, 106.7106934], [10.7206268, 106.7112045], [10.7205677, 106.7116776], [10.7203903, 106.7123337], [10.72019, 106.7129517], [10.7199011, 106.7139359], [10.7196321, 106.7152557], [10.7194653, 106.7159653], [10.7191486, 106.7169418], [10.7189636, 106.7177963], [10.7191076, 106.7183609], [10.7195559, 106.718689], [10.7199717, 106.7188492], [10.7211475, 106.719162], [10.721756, 106.719429], [10.7222109, 106.7198944], [10.7223883, 106.7203751], [10.7223883, 106.7203751], [10.7224035, 106.7206192], [10.7223358, 106.7210999], [10.7220688, 106.7220001], [10.7216282, 106.7230072], [10.7210423, 106.7241538], [10.7209225, 106.7243881], [10.7205276, 106.7247849], [10.7201128, 106.7249374], [10.7197104, 106.7249451], [10.7191658, 106.7247849], [10.7185783, 106.7245407], [10.7171459, 106.7233887], [10.7166252, 106.7230148], [10.7161684, 106.7228622], [10.7157984, 106.7228165], [10.7153835, 106.7228775], [10.7149239, 106.7229614], [10.714325, 106.7232132], [10.7133123, 106.7241425], [10.7121488, 106.7252619], [10.7121488, 106.7252619], [10.7117611, 106.7254556], [10.7110064, 106.7257058], [10.7103717, 106.7257932], [10.7099104, 106.7258249], [10.7094059, 106.7257407], [10.7088728, 106.7255173], [10.7071552, 106.7247391], [10.7065029, 106.724472], [10.7060232, 106.7244263], [10.7055216, 106.7244873], [10.7049761, 106.7246628], [10.7042103, 106.7250748], [10.7033691, 106.725563], [10.7024727, 106.7258682], [10.7018633, 106.7259521], [10.7010555, 106.7259064], [10.7002287, 106.7257919], [10.6998796, 106.7258072], [10.69977, 106.7259064], [10.6996832, 106.7259827], [10.6996832, 106.7259827], [10.6991987, 106.7267532], [10.6987343, 106.7281113], [10.6979877, 106.7296562], [10.6978023, 106.7302302], [10.6976043, 106.7309501], [10.697476, 106.7317097], [10.6974729, 106.7322498], [10.6975231, 106.7327337], [10.6976818, 106.7332041], [10.6978489, 106.7335157], [10.6981206, 106.7338903], [10.6984148, 106.734153], [10.6987432, 106.7343581], [10.6990608, 106.7345299], [10.6994706, 106.7346451], [10.6998839, 106.7347241], [10.7003224, 106.7347839], [10.7013995, 106.7349071], [10.701855, 106.7349725], [10.7023264, 106.7350593], [10.7027787, 106.7352419], [10.7032576, 106.7356415], [10.7034578, 106.7361145], [10.7034731, 106.7372513], [10.7034702, 106.7375641], [10.7034569, 106.7387009], [10.703371, 106.740181], [10.7033387, 106.7406948], [10.7032747, 106.7417145], [10.7032442, 106.7433624], [10.7033033, 106.7445526], [10.7034941, 106.7453613], [10.7037601, 106.7468643], [10.7038345, 106.7483826], [10.7040529, 106.7493362], [10.7040968, 106.7499008], [10.7043535, 106.7520953], [10.7043535, 106.7520953], [10.7046983, 106.7519936], [10.7074537, 106.751422], [10.7092477, 106.7512155], [10.7103776, 106.7511678], [10.7123764, 106.7512245], [10.7127242, 106.7512311], [10.7127242, 106.7512311], [10.713473, 106.7512531], [10.7166237, 106.7517273], [10.7185809, 106.7519171], [10.7204199, 106.752304], [10.7219417, 106.7528834], [10.7234634, 106.7536556], [10.7253651, 106.7550705], [10.7377245, 106.764866], [10.7388033, 106.7656121], [10.7431427, 106.7686561], [10.7431427, 106.7686561]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8ed0f4c16e491c012041fd597e5a7553);
+        
+</script>
+</html>
